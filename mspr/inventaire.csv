@@ -1,0 +1,7 @@
+nom,os,version
+SRV-WMS-DB,Ubuntu,20.04
+WMS-APP,Ubuntu,20.04
+PC-QUAI-01,Windows,7
+HYPERVISEUR-01,ESXi,6.5
+IPBX-VM,CentOS,7
+PC-BUREAU-12,Windows,10
