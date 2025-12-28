@@ -1,0 +1,11 @@
+nom,ip,os_version
+IPBX-VM,192.168.10.40,CentOS 7
+WMS-DB,192.168.10.21,Ubuntu 20.04
+WMS-APP,192.168.10.22,Ubuntu 20.04
+DC01,192.168.10.10,Windows Server (édition non précisée)
+DC02,192.168.10.11,Windows Server (édition non précisée)
+SUPER-01,192.168.10.50,Windows Server (édition non précisée)
+Hyperviseur-Lille,192.168.10.5,VMware ESXi 6.5
+PC-Quai-WH1-01,192.168.20.101,Windows 7
+PC-Quai-WH2-01,192.168.30.101,Windows 10
+PC-Quai-WH3-01,192.168.40.101,Windows 11
