@@ -1,11 +1,3 @@
-#!/usr/bin/env python3
-"""
-NTL-SysToolbox - Menu CLI Interactif
-Outil pour diagnostic, sauvegarde et audit d'obsolescence
-Conforme au cahier des charges MSPR TPRE511
-Support: Windows et Linux uniquement
-"""
-
 import os
 import sys
 from datetime import datetime
@@ -33,8 +25,6 @@ try:
 except ImportError as e:
     print(f"[AVERTISSEMENT] Module obsolescence_audit.py : {e}")
     modules_disponibles['obsolescence'] = False
-
-
 class NTLSysToolbox:
     """Menu CLI interactif principal"""
     
@@ -344,7 +334,5 @@ def main():
         import traceback
         traceback.print_exc()
         sys.exit(1)
-
-
 if __name__ == "__main__":
     main()
