@@ -11,3 +11,4 @@ __pycache__/
 # Environnements virtuels
 venv/
 .env
+.DS_Store
